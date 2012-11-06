@@ -1,6 +1,6 @@
 ({
     block: 'b-page',
-    title: 'Title of the page',
+    title: 'Груз 200',
     favicon: '/favicon.ico',
     head: [
         { elem: 'css', url: '_index.css', ie: false },
@@ -14,7 +14,7 @@
         {
             block: 'header',
             content: [
-                'header content goes here'
+                'Груз 200'
             ]
         },
         {
