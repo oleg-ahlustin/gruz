@@ -15,8 +15,13 @@
             block: 'header',
             content: [
                 {
-                    elem: 'h1',
-                    content: 'Груз 200'
+                    block: 'b-text',
+                    content: [
+                        {
+                            elem: 'h1',
+                            content: 'Груз 200'
+                        }
+                    ]
                 }
             ]
         },
