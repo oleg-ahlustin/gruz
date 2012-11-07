@@ -14,7 +14,10 @@
         {
             block: 'header',
             content: [
-                'Груз 200'
+                {
+                    elem: 'h1',
+                    content: 'Груз 200'
+                }
             ]
         },
         {
@@ -24,7 +27,7 @@
                     block: 'b-text',
                     content: [
                         {
-                            elem: 'h1',
+                            elem: 'h2',
                             content: 'Транспортировка, доставка, перевозка умерших (груз 200) из Алушты по Украине, России и Крыму'
                         },
                         {
@@ -86,7 +89,20 @@
         {
             block: 'footer',
             content: [
-                'footer content goes here'
+                {
+                    elem: 'p',
+                    content: 'Надежда (c) 2012'
+                },
+                {
+                    elem: 'p',
+                    content: 'Разработка сайта — '
+                },
+                {
+                    block: 'b-link',
+                    mix: [{ block: 'description', elem : 'link-inner' }],
+                    url: '//tadatuta.ru/',
+                    content: 'студия Тадатута'
+                }
             ]
         }
     ]
